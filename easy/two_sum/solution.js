@@ -12,16 +12,13 @@ var twoSum = function(nums, target) {
             first_index = nums.indexOf(nums_sorted[cursor_l]);
             //console.log(nums, nums_sorted, cursor_l, cursor_r);
 
-            if (nums_sorted[cursor_l] !== nums_sorted[cursor_r]) {
-                return [first_index, nums.indexOf(nums_sorted[cursor_r])];
-            } else if (first_index === nums.length - 1) {
-                return [first_index, nums.indexOf(nums_sorted[cursor_r], 0)];
-            } else {
-                return [first_index, nums.indexOf(nums_sorted[cursor_r], first_index+1)];
-            }
+            return ((nums_sorted[cursor_l] !== nums_sorted[cursor_r]) || (first_index === nums.length - 1)) ? 
+                [first_index, nums.indexOf(nums_sorted[cursor_r])] : 
+                [first_index, nums.indexOf(nums_sorted[cursor_r], first_index+1)];
         }
     }
 }
+
 
 console.log(twoSum([3,3], 6))
 console.log(twoSum([2,3,7,5,3,7,1,3,4], 8))
