@@ -13,3 +13,5 @@ Languages are sorted alphabetically (left to right).
 |     |                   |  Memory   | 4.7 MB |  41.2 MB   |  39 MB  | 14.9 MB |
 |  3  |  Reverse integer  |  Runtime  |  4 ms  |   84 ms    | 152 ms  |  32 ms  |
 |     |                   |  Memory   | 2.3 MB |  40.4 MB   | 35.7 MB | 14.4 MB |
+|  4  | Roman to integer  |  Runtime  |  4 ms  |   186 ms   | 228 ms  |  48 ms  |
+|     |                   |  Memory   | 3.6 MB |  46.3 MB   | 36.8 MB | 14.3 MB |
