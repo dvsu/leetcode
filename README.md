@@ -21,5 +21,5 @@ Languages are sorted alphabetically (left to right).
 |     |                       |  Memory   |        |   45 MB    |         |         |
 |     |  Roman to integer v3  |  Runtime  |        |   144 ms   |         |         |
 |     |                       |  Memory   |        |  45.9 MB   |         |         |
-|  5  | Longest common prefix |  Runtime  |        |   84 ms    |         |  36 ms  |
-|     |                       |  Memory   |        |  41.4 MB   |         | 14.3 MB |
+|  5  | Longest common prefix |  Runtime  |  4 ms  |   84 ms    | 156 ms  |  36 ms  |
+|     |                       |  Memory   | 2.5 MB |  41.4 MB   | 35.7 MB | 14.3 MB |
